@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.developers.xsquad.sqliteescuela.MainActivity">
+
+    <item
+        android:id="@+id/Agregar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="1"
+        android:title="@string/add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="2"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Editar"
+        android:orderInCategory="3"
+        android:title="@string/edit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Eliminar"
+        android:orderInCategory="4"
+        android:title="@string/delete"
+        app:showAsAction="never" />
+</menu>
